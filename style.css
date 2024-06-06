@@ -1,3 +1,116 @@
+@font-face{
+    font-family: 'fontregular';
+    src: url("assets/sf-pro-text_regular.ttf");
+}
+@font-face{
+    font-family: 'fontscene';
+    src: url("assets/Caviar-Dreams/Caviar_Dreams_Bold.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+*{
+    font-family: "fontregular";
+}
+.beau-rivage-regular {
+    font-family: "Beau Rivage", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 #services{
     width: 100%;
 }
+.footericons{
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:rows;
+    gap:1vw;
+    
+}
+.footer{
+    height: 30vh;
+}
+.footericons img{
+    max-width: 5vh;
+}
+.card{
+    /* height:50vh; */
+    object-fit: cover;
+}
+.card img{
+    object-fit: contain;
+}
+.card-img-top{
+    object-fit: cover;
+    width:100%;
+    height: auto;
+}
+header{
+    font-family: "fontscene" ;
+}
+.container1{
+   background-color: rgb(52,58,64);
+   color:white;
+   padding-bottom: 25vh;
+
+  /* background: linear-gradient(to right, grey, black, grey);  */
+}
+#form{
+    width:50%;
+    height:50%;
+    
+    margin:20vh auto 0 auto;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    
+}
+#form h1{
+    color: black;
+    text-align: center;
+}
+
+#form button{
+    max-width:5vw;
+    padding:10px;
+    margin-top:10px;
+    width:100%;
+    color:white;
+    background-color: grey;
+    border:none;
+    border-radius:4px;
+}
+.input-control{
+    display:flex;
+    flex-direction: column;
+}
+.input-control input{
+    border: 2px solid white;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding:10px;
+    width:100%
+}
+.input-control.success input{
+    border-color:lightgreen;
+}
+.input-control.error input{
+    border-color:red;
+}
+.input-color .error{
+    color:red;
+    font-size: 9px;
+    height:13px;
+}
+  .container1{
+    padding-bottom: 5vh;
+    padding: 10vh 10vh;
+  }
+  .align-button-center{
+    padding-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
